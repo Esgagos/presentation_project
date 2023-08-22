@@ -5,8 +5,7 @@
 }
 
 body {
-  margin: auto;
-  /* max-width: 800px; */
+  margin: 0% 13% 4% 13%;
 }
 
 h1,
@@ -17,23 +16,22 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 4.5em;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 3em;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 1.8em;
   opacity: 0.7;
 }
 
 p {
-  /* background: var(--secondary-color); */
-  padding: 20px;
+  padding: 1rem;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 1.1rem;
   line-height: 1.5;
   text-align: left;
 }
@@ -45,9 +43,9 @@ p {
 }
 
 .navigation-links a {
-  margin: 20px;
+  margin: 1rem;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 1rem 1.2rem;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -83,7 +81,7 @@ p {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 2em;
   text-decoration: none;
 }
 
@@ -91,31 +89,36 @@ p {
   text-decoration: underline;
 }
 .flamenco-size {
-  width: 175px;
+  width: 15.93rem;
+  margin-left: 19%;
 }
 .flamenco-size-index {
-  width: 500px;
+  width: 34em;
   background: #f8f9fa;
-  margin-right: -2%;
+  margin-right: -3%;
+  margin-left: 2%;
+  margin-top: 4em;
 }
+
 .flamenco-button {
   text-align: center;
 }
 .worldclock-size {
-  width: 280px;
+  width: 19.5rem;
+  margin-left: 19%;
 }
 .weather-size {
-  width: 280px;
+  width: 24.5rem;
+  margin-left: 14%;
 }
 .contact-post {
   margin-top: 60px;
 }
 .index-paragraph {
   margin-left: 6%;
-  width: 600px;
-  font-size: 18px;
+  font-size: 1.125em;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 133px;
 }
 
 .index-buttons {
@@ -124,16 +127,188 @@ p {
   box-shadow: var(--box-shadow);
 }
 .weather-size-index {
-  width: 800px;
+  width: 46em;
   background: #f8f9fa;
-  margin-right: 5%;
+  margin-right: 3%;
   margin-left: 5%;
 }
 .world-size-index {
-  width: 700px;
+  width: 39em;
   background: #f8f9fa;
   margin-right: 5%;
 }
 .about-text {
-  margin-left: 20%;
+  font-size: 1em;
+}
+
+@media (max-width: 1500px) {
+  p {
+    font-size: 0.9em;
+    text-align: left;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  .navigation-links a {
+    padding: 0.3rem 0.5rem;
+  }
+  .flamenco-size-index {
+    display: block;
+    margin: 0 auto;
+  }
+  .index-paragraph {
+    margin-top: 18px;
+  }
+  .index-buttons {
+    text-align: center;
+  }
+  .flamenco-size {
+    display: block;
+    margin: 0 auto;
+  }
+  .worldclock-size {
+    display: block;
+    margin: 0 auto;
+  }
+  .weather-size {
+    display: block;
+    margin: 0 auto;
+  }
+  .contact-post {
+    margin-top: 41px;
+    font-size: 2em;
+  }
+  .email-link {
+    font-size: 1.5em;
+  }
+  .weather-size-index {
+    display: block;
+    margin: 0 auto;
+    /* margin-left: 4%; */
+    max-width: 100%;
+  }
+  .flamenco-button {
+    margin-left: -11%;
+  }
+  .world-size-index {
+    margin-right: 0%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1150px) {
+  p {
+    font-size: 0.8em;
+    text-align: left;
+  }
+  h1 {
+    font-size: 3.5em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 2.2em;
+  }
+  .navigation-links a {
+    padding: 0.3rem 0.5rem;
+  }
+  .flamenco-size-index {
+    margin-top: 1em;
+    margin-left: 12%;
+  }
+  .index-paragraph {
+    margin-top: 18px;
+  }
+  .index-buttons {
+    text-align: center;
+  }
+  .flamenco-size {
+    display: block;
+    margin: 0 auto;
+  }
+  .worldclock-size {
+    display: block;
+    margin: 0 auto;
+  }
+  .weather-size {
+    display: block;
+    margin: 0 auto;
+  }
+  .contact-post {
+    margin-top: 41px;
+    font-size: 2em;
+  }
+  .email-link {
+    font-size: 1.5em;
+  }
+  /* .weather-size-index {
+    margin-left: 1%;
+  } */
+  .flamenco-button {
+    margin-left: -11%;
+  }
+}
+
+@media (max-width: 900px) {
+  p {
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  h2 {
+    font-size: 2.2em;
+  }
+  .navigation-links a {
+    padding: 0.3rem 0.5rem;
+  }
+  .flamenco-size-index {
+    margin-top: 1em;
+    display: block;
+    margin: 0 auto;
+  }
+  .index-paragraph {
+    margin-top: 18px;
+  }
+  .index-buttons {
+    text-align: center;
+  }
+  .flamenco-size {
+    display: block;
+    margin: 0 auto;
+  }
+  .worldclock-size {
+    display: block;
+    margin: 0 auto;
+  }
+  .weather-size {
+    display: block;
+    margin: 0 auto;
+  }
+  .contact-post {
+    margin-top: 41px;
+    font-size: 2em;
+  }
+  .email-link {
+    font-size: 1.5em;
+  }
+  .weather-size-index {
+    display: block;
+    margin: 0 auto;
+  }
+  .flamenco-button {
+    margin-left: -11%;
+  }
 }
